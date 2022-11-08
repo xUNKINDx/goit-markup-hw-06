@@ -341,8 +341,13 @@ a:link
 
 .form-input:hover,
 .form-input:focus {
-    color: #2196F3;
     border-color: #2196F3;
+    outline: transparent;
+}
+
+.form-input:focus .modal-svg,
+.form-input:hover .modal-svg {
+    fill: #2196F3;
 }
 
 .form-input {
