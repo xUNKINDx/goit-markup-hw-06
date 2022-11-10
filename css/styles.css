@@ -426,7 +426,7 @@ a:link
 }
 
 .checkbox:focus + .check-box {
-    outline: 2px solid var(--accent-color);
+    outline: 2px solid;
 }
 
 .checkbox {
